@@ -6,7 +6,7 @@ function deriveFinalPrice(inputPrice) {
 
 const formEl = document.querySelector('form');
 
-formEl.addEventListener('submit', function (event) {
+formEl.addEventListener('submit', (event) => {
   event.preventDefault();
   const fd = new FormData(event.currentTarget);
   const inputPrice = fd.get('price');
