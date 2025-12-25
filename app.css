@@ -90,42 +90,7 @@ button:hover {
   color: #e8cd45;
 }
 
-.logo {
+a {
   display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #252525;
-  padding: 0.5rem;
-  width: fit-content;
-}
-
-.logo img {
-  height: 35px;
-}
-
-.logo-txt {
-  padding-left: 7px;
-  display: flex;
-  flex-direction: column;
-  color: #252525;
-}
-
-.logo-txt h1,
-.logo-txt span {
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  letter-spacing: 4px;
-  text-align: start;
-}
-
-.logo-txt h1 {
-  font-weight: bolder;
-  font-size: 1.1rem;
-  margin-top: 2px;
-}
-
-.logo-txt span {
-  font-weight: lighter;
-  font-size: 0.85rem;
+  margin: 0.5rem;
 }
